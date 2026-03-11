@@ -45,8 +45,4 @@ NEXT_PUBLIC_LINKEDIN_CLIENT_ID=your_client_id
 NEXT_PUBLIC_REDIRECT_URI=http://localhost:3000/auth/linkedin/callback
 ```
 
-## Tech Stack
-- Next.js 15
-- React 19
-- Redux Toolkit
-- Tailwind CSS
+
