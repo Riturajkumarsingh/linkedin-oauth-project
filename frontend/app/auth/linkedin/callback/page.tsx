@@ -27,7 +27,7 @@ export default function Callback() {
     try {
 
       const res = await axios.post(
-        "http://localhost:5000/api/linkedin",
+        "/api/auth/linkedin",
         { code }
       );
 

@@ -2,9 +2,9 @@
 
 export default function Home() {
 
-const clientId = "86vfn3qd1u8euo";
+const clientId = process.env.NEXT_PUBLIC_LINKEDIN_CLIENT_ID;
 
-const redirectUri = "http://localhost:3000/auth/linkedin/callback";
+const redirectUri = process.env.NEXT_PUBLIC_REDIRECT_URI;
 
 const login = () => {
 
